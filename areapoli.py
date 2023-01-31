@@ -15,7 +15,7 @@ figuras = ["triangulo", "cuadrado", "rectangulo"]
 def area(Figura: str, Ladoa, Ladob: int = 0):
 
     # aqui hice que la entrada del poligono siempre fuera en minusculas en caso de que el
-    # usuario introdusca Triangulo TRIANGULO TriAngulo etc
+    # usuario introdusca Triangulo TRIANGULO TriAngulo etc.
     Poligono = Figura.lower()
     print(Poligono)
 
